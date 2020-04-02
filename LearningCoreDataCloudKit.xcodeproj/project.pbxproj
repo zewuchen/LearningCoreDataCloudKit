@@ -63,15 +63,14 @@
 		CB78B5A5243645790008951E /* LearningCoreDataCloudKit */ = {
 			isa = PBXGroup;
 			children = (
+				CB78B5C224364CD00008951E /* Aplication */,
+				CB78B5C324364CDC0008951E /* Controllers */,
+				CB78B5C124364CB50008951E /* Core Data */,
 				CB78B5BD243645DE0008951E /* LearningCoreDataCloudKit.entitlements */,
-				CB78B5A6243645790008951E /* AppDelegate.swift */,
-				CB78B5A8243645790008951E /* SceneDelegate.swift */,
-				CB78B5AA243645790008951E /* ViewController.swift */,
 				CB78B5AC243645790008951E /* Main.storyboard */,
 				CB78B5B22436457A0008951E /* Assets.xcassets */,
 				CB78B5B42436457A0008951E /* LaunchScreen.storyboard */,
 				CB78B5B72436457A0008951E /* Info.plist */,
-				CB78B5AF243645790008951E /* LearningCoreDataCloudKit.xcdatamodeld */,
 			);
 			path = LearningCoreDataCloudKit;
 			sourceTree = "<group>";
@@ -82,6 +81,31 @@
 				CB78B5BF243645E70008951E /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB78B5C124364CB50008951E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				CB78B5AF243645790008951E /* LearningCoreDataCloudKit.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		CB78B5C224364CD00008951E /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				CB78B5A6243645790008951E /* AppDelegate.swift */,
+				CB78B5A8243645790008951E /* SceneDelegate.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		CB78B5C324364CDC0008951E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB78B5AA243645790008951E /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LearningCoreDataCloudKit/LearningCoreDataCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DB2793VW42;
 				INFOPLIST_FILE = LearningCoreDataCloudKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,7 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LearningCoreDataCloudKit/LearningCoreDataCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DB2793VW42;
 				INFOPLIST_FILE = LearningCoreDataCloudKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CB778A952436558A00505633 /* Materia+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB778A932436558A00505633 /* Materia+CoreDataClass.swift */; };
+		CB778A98243659D000505633 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB778A97243659D000505633 /* DetailViewController.swift */; };
 		CB78B5A7243645790008951E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78B5A6243645790008951E /* AppDelegate.swift */; };
 		CB78B5A9243645790008951E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78B5A8243645790008951E /* SceneDelegate.swift */; };
 		CB78B5AB243645790008951E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78B5AA243645790008951E /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		CB778A932436558A00505633 /* Materia+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Materia+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CB778A97243659D000505633 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CB78B5A3243645790008951E /* LearningCoreDataCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCoreDataCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB78B5A6243645790008951E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB78B5A8243645790008951E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				CB78B5AA243645790008951E /* ViewController.swift */,
+				CB778A97243659D000505633 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				CB78B5AB243645790008951E /* ViewController.swift in Sources */,
 				CB78B5A7243645790008951E /* AppDelegate.swift in Sources */,
 				CB778A952436558A00505633 /* Materia+CoreDataClass.swift in Sources */,
+				CB778A98243659D000505633 /* DetailViewController.swift in Sources */,
 				CB78B5A9243645790008951E /* SceneDelegate.swift in Sources */,
 				CB78B5B1243645790008951E /* LearningCoreDataCloudKit.xcdatamodeld in Sources */,
 			);

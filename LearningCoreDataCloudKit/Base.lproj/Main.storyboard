@@ -84,7 +84,7 @@
         <!--Matéria-->
         <scene sceneID="SwO-yb-zXK">
             <objects>
-                <viewController id="FY6-3N-JFH" sceneMemberID="viewController">
+                <viewController id="FY6-3N-JFH" customClass="DetailViewController" customModule="LearningCoreDataCloudKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ON8-In-ryF"/>
                         <viewControllerLayoutGuide type="bottom" id="nVV-DJ-5em"/>
@@ -139,8 +139,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="descriptionTextField" destination="Zef-b2-eJP" id="1hN-Jy-6XZ"/>
-                        <outlet property="titleTextField" destination="7rK-lD-8Qz" id="RxV-Sl-eIJ"/>
+                        <outlet property="txtCurso" destination="Zef-b2-eJP" id="Yc9-FB-shI"/>
+                        <outlet property="txtNome" destination="7rK-lD-8Qz" id="rwP-an-WUT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adg-Lk-HKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
